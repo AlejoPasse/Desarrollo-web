@@ -1,0 +1,577 @@
+
+
+.color-grey {
+    color: grey;
+}
+
+@media only screen and (max-width: 500px){    /*CELULARES*/
+    #desaparecer{
+        display: none;
+    }
+    .link{
+        margin: auto;
+    }
+
+    .portada-img-cel {
+        height: 70%;
+    }
+    .titulo {
+        font-size: 20px;
+    }
+    .departamentos {
+        left: 50%;
+        transform: translateX(-50%);
+        margin: 40px 0 50px 0;
+        border: 4px groove black;
+        width: 90%;
+    }
+
+    .datos {
+        width: 100%;
+        height: 400px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .formulario {
+        width: 80%;
+        height: 600px;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .consulta {
+        width: 150px;
+        height: 40px;
+        bottom: 60px;
+    }
+
+    .links{
+        display: none;
+    }
+    .secciones{
+        height: 350px;
+    }
+    .nosotros {
+        top: 130vw;
+        height: 600px;
+    }
+    .titulo-nos {
+        width: 100%;
+    }
+    .desc-nos {
+        width: 100%;
+    }
+
+    #desc-nos {
+        font-size: 25px;
+        top: 10%;
+    }
+
+    #desc-nos2 {
+        font-size: 15px;
+        top: 30%;
+    }
+    .img-nos {
+        width: 95%;
+        left: 0;
+        right: 0;
+        top: 50%;
+    }
+}
+@media only screen and (min-width: 500px) and (max-width: 960px){ /*TABLETS*/
+    #desaparecer {
+        display: none;
+    }
+    .link{
+            margin: auto;
+    }
+
+    .portada-img-cel {
+        height: 85%;
+    }
+    .titulo {
+    }
+    .departamentos{ 
+        left: 50%;
+        transform: translateX(-50%);
+        margin: 40px 0 50px 0;
+        border: 4px groove black;
+        width: 60%;
+    }
+
+    .datos {
+        width: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .formulario {
+        width: 60%;
+        height: 600px;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .consulta {
+        width: 150px;
+        height: 40px;
+        bottom: 60px;
+    }
+
+    .links{
+        display: none;
+    }
+    .secciones{
+        height: 350px;
+    }
+    .nosotros {
+        top: 100vw;
+        height: 700px;
+    }
+    .titulo-nos {
+        width: 100%;
+    }
+
+    .desc-nos {
+        width: 100%;
+    }
+
+    #desc-nos {
+        font-size: 30px;
+        top: 10%;
+    }
+    #desc-nos2 {
+        font-size: 20px;
+        top: 25%;
+    }
+
+    .img-nos {
+        width: 80%;
+        left: 0;
+        right: 0;
+        top: 40%;
+    }
+}
+@media only screen and (min-width:960px){ /*DESKTOP*/
+    .link{
+        padding: 50px 15px 0 15px;
+    }
+    .portada-img-cel {
+        display: none;
+    }
+
+    .departamentos{
+        left: 3%;
+        margin: 0 3% 0 3%;
+        top: 25px;
+        border: 8px groove black;
+        width: 24%;        
+    }
+
+    .datos {
+        width: 600px;
+        left: 75px;
+        display: inline-block;
+    }
+
+    .formulario {
+        top: 100px;
+        width: 600px;
+        height: 550px;
+        left: 160px;
+        display: inline-block;
+    }
+
+    .consulta {
+        width: 150px;
+        height: 40px;
+    }
+    .titulo {
+        font-size: 30px;
+    }
+    .secciones{
+        height: 800px;
+    }
+    .nosotros {
+        top: 50vw;
+        height: 400px;
+    }
+
+    .titulo-nos {
+        width: 50%;
+        top: 15%;
+    }
+
+    .desc-nos {
+        width: 40%;
+        left: 5%;
+    }
+
+    #desc-nos {
+        font-size: 30px;
+        top: 30%;
+    }
+
+    #desc-nos2 {
+        font-size: 20px;
+        top: 60%;
+    }
+
+    .img-nos {
+        top: 0;
+        bottom: 0;
+        left: 60%;
+        width: 35%;
+    }
+}
+/*TODOS*/
+*{
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*GENERAL*/
+    .link{
+        font-size: 20px;
+        color: black;
+        text-decoration: none;
+    }
+    #activado{
+        color: #f85700;
+    }
+
+/*INICIO*/
+    .navegador {
+        position: relative;
+        display: flex;
+        height: 120px;
+        background-color: #faf8f3;
+        border: 2px solid black;
+    }
+    .logo {
+        width: 150px;
+        height: 120px;
+        margin: auto;
+        position: absolute;
+        left: 0;
+        right: 0;
+    }
+
+.titulo {
+    color: white;
+    top: 130px;
+    width: 90%;
+    position: absolute;
+    left: 0;
+    right: 0;    
+    margin: auto;
+    display: inline-block;
+    text-align: center;
+}
+
+.e-nomade {
+    top: 40px;
+    width: 200px;
+    font-size: 35px; 
+    color: white;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+}
+.portada-img {
+    top: 0px;
+    left: 0;
+    width: 100vw;
+    height: 50vw;
+    position:absolute;
+    z-index: -10;
+}
+
+.descripcion {
+    font-size: 30px;
+    position: absolute;
+    color: white;
+    display: inline-block;
+    width: 700px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 25vw;
+    text-align: center;
+}
+
+.portada {
+    position: relative;
+    display: flex;
+    width: 100%;
+}
+/*NOSOTROS*/
+.nosotros {
+    position: relative;
+    width: 100%;
+}
+.titulo-nos {
+    position: absolute;
+    text-align: center;
+    color: #f85700;
+}
+.desc-nos {
+    position: absolute;
+    text-align: center;
+}
+#desc-nos {
+    color: grey;
+}
+.img-nos {
+    position: absolute;
+    border-radius: 10px;
+    margin: auto;
+}
+/*DEPARTAMENTOS*/
+
+.departamentos{
+    position: relative;
+    height: 575px;
+    display: inline-block;
+    background-color: black;
+}
+#dep-aragon{
+    top: 75px;
+    height: 500px;
+    mask-image: linear-gradient(
+        transparent,
+        black 10% );
+}
+
+.img-departamentos {
+    position: absolute;
+    height: 575px;
+    display: inline-block;
+    width: 100%;
+}
+.texto-departamentos {
+    font-size: 40px;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+}
+
+.fotos-departamentos {
+    color: black;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 30px;
+    width: 60px;
+    height: 22px;
+    text-align: center;
+    background-color: #d9d9d9;
+    border-radius:5px ;
+    text-decoration: none;
+}
+
+/*CONTACTO*/
+
+.datos {
+    position: relative;
+    height: 300px;
+}
+
+.contacto-msj {
+    font-size: 20px;
+    color:#f85700 ;
+    width: 1fr;
+    text-align: center;
+}
+
+.contacto-titulo {
+    font-size: 35px;
+    width: 1fr;
+    text-align: center;        
+}
+
+.gmail-img{
+    width: 15px;
+    height: 10px;
+}
+
+.ubicacion-linea {
+    position: relative;
+    top: 10px;
+    width: 90%;
+}
+
+.ubicacion-img {
+    width: 15px;
+    height: 15px;
+}
+
+
+.formulario {
+    position: relative;
+}
+
+.aceptar {
+    position: relative;
+    left: 0;
+    top: 42px;
+}
+
+.acuerdo {
+    position: relative;
+    color: grey;
+    left: 20px;
+}
+
+.consulta {
+    left: 0;
+    right: 0;
+    margin: auto;
+    position: absolute;
+    background-color: #f85700;
+    border-radius: 5px;
+}
+
+.inputs {
+    position: relative;
+    width: 100%;
+    top: 50px;
+    height: 50px;
+    margin-bottom: 25px;
+}
+#msj{
+    height: 200px;
+}
+
+
+.portada-img-cel {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -10;
+}
+
+/*DEPARTAMENTOS*/
+.volver-deps {
+    position: absolute;
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 900;
+    transform: rotate(180deg);
+    left: 20px;
+    text-decoration: none;
+    color: white;
+    top: 10px;
+    z-index: 100;
+}
+.tit-deps {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    top: -20px;
+}
+/*BROCHEROS*/
+
+.secciones{
+    top: 98px;
+    position: relative;
+    width: 98vw;
+    border: 2px solid grey;
+}
+#foto-com-coc1{
+    position: absolute;
+    width: 25%;
+    left:50%;
+    height: 100%;
+}
+#foto-com-coc2 {
+    position: absolute;
+    width: 25%;
+    left: 75%;
+    height: 100%;
+}
+
+#titulos {
+    color: grey;
+    font-size: 30px;
+    top: 35%;
+}
+.info-deps{
+    position: absolute;
+    font-size: 20px;
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+    top: 50%;
+}
+
+#baño {
+    top: 96px;
+    position: relative;
+    width: 98vw;
+    border: 2px solid grey;
+}
+
+#foto-baño {
+    position: absolute;
+    width: 50%;
+    left: 50%;
+    height: 100%;
+}
+.foto-abajo{
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    left: 50%;
+    top: 50%;
+}
+.foto-arriba-izq{
+    position: absolute;
+    width: 25%;
+    left: 50%;
+    height: 50%;
+}
+.foto-arriba-der{
+    position: absolute;
+    width: 25%;
+    left: 75%;
+    height: 50%;
+}
+.nav-deps {
+    position: fixed;
+    display: flex;
+    top: 0;
+    background-color: grey;
+    width: 100%;
+    left: 0;
+    z-index: 10;
+    height: 60px;
+}
+#link-inicial {
+    padding-left: 80%;
+}
+.links {
+    padding-top: 15px;
+    padding-right: 25px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    z-index: 10;
+}
+#video-hall {
+    position: absolute;
+    height: 100%;
+    width: 30%;
+    left: 60%;
+}
